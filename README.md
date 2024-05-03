@@ -10,6 +10,8 @@
 목록자세히보기 ls -alh
 압축 tar cvfz xxx.tar.gz
 압축풀기 tar xvfz 
+포트 활성화 확인 lsof -i :8085
+포트 목록 보기 lsof -n -P -i TCP -s TCP:LISTEN
 
 
  
